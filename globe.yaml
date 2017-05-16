@@ -73,8 +73,8 @@ styles:
         mix: stereo
 sources:
     osm:
-        type: TopoJSON
-        url:  https://tile.mapzen.com/mapzen/vector/v1/all/{z}/{x}/{y}.topojson
+        type: MVT
+        url:  https://tile.mapzen.com/mapzen/vector/v1/all/{z}/{x}/{y}.mvt
         url_params:
             api_key: mapzen-tDHBHDp
 layers:
