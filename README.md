@@ -1,1 +1,2 @@
-# projection tests - learning from meetar/projection-tests
+# projection tests
+- learning from meetar/projection-tests
