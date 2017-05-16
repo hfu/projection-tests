@@ -1,6 +1,6 @@
 map = (function () {
     'use strict';
-    var map_start_location = [0,0,2];
+    var map_start_location = [2,85.1,0];
     var url_hash = window.location.hash.slice(1, window.location.hash.length).split('/');
     if (url_hash.length == 3) {
         map_start_location = [url_hash[1],url_hash[2], url_hash[0]];
