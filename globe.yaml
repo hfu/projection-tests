@@ -85,6 +85,7 @@ layers:
         data: { source: gm }
         draw:
             stereolines:
+                order: 1
                 color: green
                 width: 1px
     earth:
