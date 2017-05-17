@@ -77,7 +77,16 @@ sources:
         url:  https://tile.mapzen.com/mapzen/vector/v1/all/{z}/{x}/{y}.mvt
         url_params:
             api_key: mapzen-v7sXg1i
+    gm:
+        type:MVT
+        url: https://globalmaps-vt.github.io/gmeu90vt/{z}/{x}/{y}.mvt
 layers:
+    gmvt-default:
+        data: { source: gm }
+        draw:
+            stereolines:
+                color: green
+                width: 1px
     earth:
         data: { source: osm }
         draw:
