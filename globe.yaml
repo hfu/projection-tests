@@ -80,7 +80,7 @@ sources:
 layers:
     all:
         data: { source: osm }
-        layer: function() { return true; }
+        layer: poi
         filter: function() { return true; }
         draw:
             stereolines:
