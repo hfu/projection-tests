@@ -78,6 +78,13 @@ sources:
         url_params:
             api_key: mapzen-v7sXg1i
 layers:
+    all:
+        data: { source: osm }
+        filter: function() { return true; }
+        draw:
+            stereolines:
+                color: white
+                width: 1px
     earth:
         data: { source: osm }
         draw:
