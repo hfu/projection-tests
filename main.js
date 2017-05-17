@@ -23,7 +23,7 @@ map = (function () {
     }
     var layer = Tangram.leafletLayer({
         scene: style_file,
-        attribution: '<a href="https://mapzen.com/tangram" target="_blank">Tangram</a> | &copy; OSM contributors | <a href="https://mapzen.com/" target="_blank">Mapzen</a>'
+        attribution: '<a href="https://mapzen.com/tangram" target="_blank">Tangram</a> | EuroGlobalMap 9.0 by EuroGeographics | OSM contributors | <a href="https://mapzen.com/" target="_blank">Mapzen</a>'
     });
     window.layer = layer;
     var scene = layer.scene;
