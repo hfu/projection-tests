@@ -83,7 +83,7 @@ layers:
         filter: function() { return true; }
         draw:
             stereolines:
-                color: white
+                color: black
                 width: 1px
     earth:
         data: { source: osm }
