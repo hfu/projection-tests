@@ -81,7 +81,7 @@ sources:
         type: MVT
         url: https://globalmaps-vt.github.io/gmeu90vt/{z}/{x}/{y}.mvt
 layers:
-    gmvt-default:
+    lsAN010:
         data: { source: gm }
         draw:
             stereolines:
