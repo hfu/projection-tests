@@ -83,6 +83,7 @@ layers:
         filter: function() { return true; }
         draw:
             stereolines:
+                order: function() { return feature.sort_key; }
                 color: black
                 width: 1px
     earth:
