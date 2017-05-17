@@ -80,6 +80,8 @@ sources:
     gm:
         type: MVT
         url: https://globalmaps-vt.github.io/gmeu90vt/{z}/{x}/{y}.mvt
+        max_zoom: 9
+        max_display_zoom: 18
 layers:
     lsAP030:
         data: { source: gm }
