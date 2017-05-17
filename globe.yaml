@@ -78,7 +78,7 @@ sources:
         url_params:
             api_key: mapzen-v7sXg1i
     gm:
-        type:MVT
+        type: MVT
         url: https://globalmaps-vt.github.io/gmeu90vt/{z}/{x}/{y}.mvt
 layers:
     gmvt-default:
