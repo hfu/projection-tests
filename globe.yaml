@@ -78,15 +78,6 @@ sources:
         url_params:
             api_key: mapzen-v7sXg1i
 layers:
-    all:
-        data: { source: osm }
-        layer: poi
-        filter: function() { return true; }
-        draw:
-            stereolines:
-                order: function() { return feature.sort_key; }
-                color: black
-                width: 1px
     earth:
         data: { source: osm }
         draw:
@@ -114,7 +105,7 @@ layers:
         draw:
             stereolines:
                 order: function() { return feature.sort_key; }
-                color: white
+                color: black
                 width: 1px
     buildings:
         data: { source: osm }
